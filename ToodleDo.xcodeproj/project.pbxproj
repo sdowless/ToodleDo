@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		23DFF0DF26DFD66B00367ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0DD26DFD66B00367ED3 /* Main.storyboard */; };
 		23DFF0E126DFD66D00367ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0E026DFD66D00367ED3 /* Assets.xcassets */; };
 		23DFF0E426DFD66D00367ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0E226DFD66D00367ED3 /* LaunchScreen.storyboard */; };
+		23DFF0ED26DFD99A00367ED3 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0EC26DFD99A00367ED3 /* FirebaseFirestoreSwift-Beta */; };
+		23DFF0EF26DFD99A00367ED3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0EE26DFD99A00367ED3 /* FirebaseStorage */; };
+		23DFF0F126DFD99A00367ED3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0F026DFD99A00367ED3 /* FirebaseAuth */; };
+		23DFF0F326DFD99A00367ED3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0F226DFD99A00367ED3 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23DFF0ED26DFD99A00367ED3 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				23DFF0F326DFD99A00367ED3 /* FirebaseFirestore in Frameworks */,
+				23DFF0F126DFD99A00367ED3 /* FirebaseAuth in Frameworks */,
+				23DFF0EF26DFD99A00367ED3 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,12 @@
 			dependencies = (
 			);
 			name = ToodleDo;
+			packageProductDependencies = (
+				23DFF0EC26DFD99A00367ED3 /* FirebaseFirestoreSwift-Beta */,
+				23DFF0EE26DFD99A00367ED3 /* FirebaseStorage */,
+				23DFF0F026DFD99A00367ED3 /* FirebaseAuth */,
+				23DFF0F226DFD99A00367ED3 /* FirebaseFirestore */,
+			);
 			productName = ToodleDo;
 			productReference = 23DFF0D426DFD66B00367ED3 /* ToodleDo.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 23DFF0CB26DFD66B00367ED3;
+			packageReferences = (
+				23DFF0EB26DFD99A00367ED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 23DFF0D526DFD66B00367ED3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +358,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23DFF0EB26DFD99A00367ED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23DFF0EC26DFD99A00367ED3 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23DFF0EB26DFD99A00367ED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		23DFF0EE26DFD99A00367ED3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23DFF0EB26DFD99A00367ED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		23DFF0F026DFD99A00367ED3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23DFF0EB26DFD99A00367ED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		23DFF0F226DFD99A00367ED3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23DFF0EB26DFD99A00367ED3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23DFF0CC26DFD66B00367ED3 /* Project object */;
 }

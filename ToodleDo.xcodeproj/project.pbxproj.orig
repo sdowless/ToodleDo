@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,14 @@
 		23DFF0DF26DFD66B00367ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0DD26DFD66B00367ED3 /* Main.storyboard */; };
 		23DFF0E126DFD66D00367ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0E026DFD66D00367ED3 /* Assets.xcassets */; };
 		23DFF0E426DFD66D00367ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0E226DFD66D00367ED3 /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
+		23DFF0ED26DFD99A00367ED3 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0EC26DFD99A00367ED3 /* FirebaseFirestoreSwift-Beta */; };
+		23DFF0EF26DFD99A00367ED3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0EE26DFD99A00367ED3 /* FirebaseStorage */; };
+		23DFF0F126DFD99A00367ED3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0F026DFD99A00367ED3 /* FirebaseAuth */; };
+		23DFF0F326DFD99A00367ED3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0F226DFD99A00367ED3 /* FirebaseFirestore */; };
+=======
 		3567B1F2270E826C00110D1B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3567B1F1270E826C00110D1B /* Extensions.swift */; };
+>>>>>>> b5623462db0e88b5fb2c064c411423b760cd2ee6
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

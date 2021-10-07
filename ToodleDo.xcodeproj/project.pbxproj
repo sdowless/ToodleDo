@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2304A5FC270E87120038FA43 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0EC26DFD99A00367ED3 /* FirebaseFirestoreSwift-Beta */; };
+		2304A5FD270E87120038FA43 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0EE26DFD99A00367ED3 /* FirebaseStorage */; };
+		2304A5FE270E87120038FA43 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0F026DFD99A00367ED3 /* FirebaseAuth */; };
+		2304A5FF270E87120038FA43 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 23DFF0F226DFD99A00367ED3 /* FirebaseFirestore */; };
+		23182BA0270E887E00F9A9F3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23182B9F270E887E00F9A9F3 /* HomeController.swift */; };
+		23182BA2270E8B7C00F9A9F3 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23182BA1270E8B7C00F9A9F3 /* TaskCell.swift */; };
+		23182BA4270E8F2700F9A9F3 /* CategoriesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23182BA3270E8F2700F9A9F3 /* CategoriesHeaderView.swift */; };
 		23DFF0D826DFD66B00367ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DFF0D726DFD66B00367ED3 /* AppDelegate.swift */; };
 		23DFF0DA26DFD66B00367ED3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DFF0D926DFD66B00367ED3 /* SceneDelegate.swift */; };
-		23DFF0DC26DFD66B00367ED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DFF0DB26DFD66B00367ED3 /* ViewController.swift */; };
 		23DFF0DF26DFD66B00367ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0DD26DFD66B00367ED3 /* Main.storyboard */; };
 		23DFF0E126DFD66D00367ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0E026DFD66D00367ED3 /* Assets.xcassets */; };
 		23DFF0E426DFD66D00367ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0E226DFD66D00367ED3 /* LaunchScreen.storyboard */; };
@@ -17,10 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23182B9F270E887E00F9A9F3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		23182BA1270E8B7C00F9A9F3 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		23182BA3270E8F2700F9A9F3 /* CategoriesHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesHeaderView.swift; sourceTree = "<group>"; };
 		23DFF0D426DFD66B00367ED3 /* ToodleDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToodleDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DFF0D726DFD66B00367ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23DFF0D926DFD66B00367ED3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		23DFF0DB26DFD66B00367ED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23DFF0DE26DFD66B00367ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23DFF0E026DFD66D00367ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23DFF0E326DFD66D00367ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,10 +41,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23DFF0ED26DFD99A00367ED3 /* FirebaseFirestoreSwift-Beta in Frameworks */,
-				23DFF0F326DFD99A00367ED3 /* FirebaseFirestore in Frameworks */,
-				23DFF0F126DFD99A00367ED3 /* FirebaseAuth in Frameworks */,
-				23DFF0EF26DFD99A00367ED3 /* FirebaseStorage in Frameworks */,
+				2304A5FC270E87120038FA43 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				2304A5FF270E87120038FA43 /* FirebaseFirestore in Frameworks */,
+				2304A5FE270E87120038FA43 /* FirebaseAuth in Frameworks */,
+				2304A5FD270E87120038FA43 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +77,6 @@
 				3567B1EC270E824D00110D1B /* API */,
 				23DFF0D726DFD66B00367ED3 /* AppDelegate.swift */,
 				23DFF0D926DFD66B00367ED3 /* SceneDelegate.swift */,
-				23DFF0DB26DFD66B00367ED3 /* ViewController.swift */,
 				23DFF0DD26DFD66B00367ED3 /* Main.storyboard */,
 				23DFF0E026DFD66D00367ED3 /* Assets.xcassets */,
 				23DFF0E226DFD66D00367ED3 /* LaunchScreen.storyboard */,
@@ -88,6 +95,7 @@
 		3567B1ED270E824F00110D1B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				23182B9F270E887E00F9A9F3 /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -95,6 +103,8 @@
 		3567B1EE270E825000110D1B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				23182BA1270E8B7C00F9A9F3 /* TaskCell.swift */,
+				23182BA3270E8F2700F9A9F3 /* CategoriesHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,10 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23DFF0DC26DFD66B00367ED3 /* ViewController.swift in Sources */,
+				23182BA0270E887E00F9A9F3 /* HomeController.swift in Sources */,
 				23DFF0D826DFD66B00367ED3 /* AppDelegate.swift in Sources */,
 				23DFF0DA26DFD66B00367ED3 /* SceneDelegate.swift in Sources */,
 				3567B1F2270E826C00110D1B /* Extensions.swift in Sources */,
+				23182BA2270E8B7C00F9A9F3 /* TaskCell.swift in Sources */,
+				23182BA4270E8F2700F9A9F3 /* CategoriesHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

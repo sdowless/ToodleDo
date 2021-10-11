@@ -14,6 +14,8 @@
 		23182BA0270E887E00F9A9F3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23182B9F270E887E00F9A9F3 /* HomeController.swift */; };
 		23182BA2270E8B7C00F9A9F3 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23182BA1270E8B7C00F9A9F3 /* TaskCell.swift */; };
 		23182BA4270E8F2700F9A9F3 /* CategoriesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23182BA3270E8F2700F9A9F3 /* CategoriesHeaderView.swift */; };
+		23182BA7270F565000F9A9F3 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23182BA6270F565000F9A9F3 /* CategoryCell.swift */; };
+		23182BA92714FA0800F9A9F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23182BA82714FA0800F9A9F3 /* GoogleService-Info.plist */; };
 		23DFF0D826DFD66B00367ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DFF0D726DFD66B00367ED3 /* AppDelegate.swift */; };
 		23DFF0DA26DFD66B00367ED3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DFF0D926DFD66B00367ED3 /* SceneDelegate.swift */; };
 		23DFF0DF26DFD66B00367ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23DFF0DD26DFD66B00367ED3 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 		23182B9F270E887E00F9A9F3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		23182BA1270E8B7C00F9A9F3 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		23182BA3270E8F2700F9A9F3 /* CategoriesHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesHeaderView.swift; sourceTree = "<group>"; };
+		23182BA6270F565000F9A9F3 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		23182BA82714FA0800F9A9F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		23DFF0D426DFD66B00367ED3 /* ToodleDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToodleDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DFF0D726DFD66B00367ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23DFF0D926DFD66B00367ED3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23182BA5270F563B00F9A9F3 /* CategoriesHeader */ = {
+			isa = PBXGroup;
+			children = (
+				23182BA3270E8F2700F9A9F3 /* CategoriesHeaderView.swift */,
+				23182BA6270F565000F9A9F3 /* CategoryCell.swift */,
+			);
+			path = CategoriesHeader;
+			sourceTree = "<group>";
+		};
 		23DFF0CB26DFD66B00367ED3 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +93,7 @@
 				23DFF0DD26DFD66B00367ED3 /* Main.storyboard */,
 				23DFF0E026DFD66D00367ED3 /* Assets.xcassets */,
 				23DFF0E226DFD66D00367ED3 /* LaunchScreen.storyboard */,
+				23182BA82714FA0800F9A9F3 /* GoogleService-Info.plist */,
 				23DFF0E526DFD66D00367ED3 /* Info.plist */,
 			);
 			path = ToodleDo;
@@ -103,8 +117,8 @@
 		3567B1EE270E825000110D1B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				23182BA5270F563B00F9A9F3 /* CategoriesHeader */,
 				23182BA1270E8B7C00F9A9F3 /* TaskCell.swift */,
-				23182BA3270E8F2700F9A9F3 /* CategoriesHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23DFF0E426DFD66D00367ED3 /* LaunchScreen.storyboard in Resources */,
+				23182BA92714FA0800F9A9F3 /* GoogleService-Info.plist in Resources */,
 				23DFF0E126DFD66D00367ED3 /* Assets.xcassets in Resources */,
 				23DFF0DF26DFD66B00367ED3 /* Main.storyboard in Resources */,
 			);
@@ -206,6 +221,7 @@
 				23182BA0270E887E00F9A9F3 /* HomeController.swift in Sources */,
 				23DFF0D826DFD66B00367ED3 /* AppDelegate.swift in Sources */,
 				23DFF0DA26DFD66B00367ED3 /* SceneDelegate.swift in Sources */,
+				23182BA7270F565000F9A9F3 /* CategoryCell.swift in Sources */,
 				3567B1F2270E826C00110D1B /* Extensions.swift in Sources */,
 				23182BA2270E8B7C00F9A9F3 /* TaskCell.swift in Sources */,
 				23182BA4270E8F2700F9A9F3 /* CategoriesHeaderView.swift in Sources */,
